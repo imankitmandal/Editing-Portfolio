@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ankit — Video Editor (preview)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<div class="wrap">
+<nav><a class="logo" href="#top">Ankit</a><div><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></div></nav>
+<header class="hero" id="top">
+<h1>I cut video<br>that keeps<br>people watching.</h1>
+<p>Video editor. Reels, YouTube edits, and short films, with pacing, sound, and color handled in one pass.</p>
+<div class="ruler" aria-hidden="true"><div class="playhead"></div></div>
+</header>
+<section id="work"><h2>Work</h2>
+<div class="note"><span>Preview mode: these are sample cards. Pick a video from your computer to see how it looks on the site. It stays only in this browser tab.</span>
+<label class="btn" style="cursor:pointer;color:#fff">Add a video<input type="file" id="pick" accept="video/*" hidden></label></div>
+<div class="filters" id="filters"></div><div class="grid" id="grid"></div></section>
+<section id="about"><h2>About</h2><div class="about">
+<p><strong>Edit with a reason.</strong> Every cut should move the story forward. Write 2–3 lines here about your style and the tools you use (Premiere Pro, DaVinci Resolve, After Effects, CapCut).</p>
+<p>Mention what you've edited and the kind of work you want next.</p></div></section>
+</div>
+<footer id="contact"><div class="wrap"><h2>Contact</h2><p><a href="mailto:your@email.com">your@email.com</a> · <a href="#">Instagram</a> · <a href="#">LinkedIn</a></p></div></footer>
+<dialog id="player"><video id="pv" controls playsinline></video><div class="bar"><span id="pt"></span><button id="close">Close</button></div></dialog>
+<script src="script.js"></script></body></html>
